@@ -1,11 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+
+import { Button, StyleSheet, Text, TextInput, View } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Text>Age</Text>
+      <TextInput keyboardType='numeric'></TextInput>
+      <Text>Heart Rate Limits</Text>
+      <Text></Text>
+      <Button title='Calculate'></Button>
+      
     </View>
   );
 }
